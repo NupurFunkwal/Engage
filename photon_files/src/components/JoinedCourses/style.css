@@ -1,0 +1,76 @@
+.joined {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .joined__list {
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 18rem;
+    background-color:black;
+    border: 0.0625rem solid #dadce0;
+    -webkit-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .joined__imgWrapper {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color:black;
+  }
+  .joined__image {
+    background-image: url(https://static7.depositphotos.com/1005515/695/i/600/depositphotos_6959168-stock-photo-energy-impulse.jpg);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .joined__container {
+    position: relative;
+  }
+  .joined__content {
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    height: 4.5rem;
+    padding: 1rem 1rem 0.75rem;
+    position: relative;
+  }
+  .joined__title {
+    color: white;
+    font-family: "Roboto";
+    text-decoration: none;
+  }
+  .joined__title h2 {
+    font-weight: 400;
+  }
+  .joined__title h2:hover {
+    text-decoration: underline;
+  }
+  .joined__owner {
+    color: white;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+  }
+  
